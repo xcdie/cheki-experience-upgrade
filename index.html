@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An independent concept for a clearer Kenyan vehicle marketplace experience.">
+  <title>Cheki Motors — Experience Upgrade (Concept)</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="demo-banner">INDEPENDENT CONCEPT DEMO · Not affiliated with or connected to Cheki Motors</div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">✓</span><span>Cheki<span class="brand-sub">MOTORS</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav">
+      <a class="active" href="index.html">Find a vehicle</a><a href="dealer.html">Dealers</a>
+      <a href="saved.html">Saved <span class="saved-count" id="savedCount">0</span></a>
+      <a href="dashboard.html">Seller dashboard</a>
+      <a class="nav-cta" href="dashboard.html#add-listing">＋ List a vehicle</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR NEXT JOURNEY STARTS HERE</p>
+        <h1>Find the right vehicle.<br><em>With more confidence.</em></h1>
+        <p class="hero-text">Explore sample listings, compare the details that matter and connect with sellers in one clear experience.</p>
+        <div class="hero-points"><span>✓ Clear vehicle details</span><span>✓ Useful search filters</span><span>✓ Seller information</span></div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Decorative illustration of a car">
+        <div class="sun"></div><div class="road"></div><div class="car-illustration"><div class="car-top"></div><div class="car-body"></div><i></i><b></b></div>
+        <span class="art-label">DRIVE YOUR NEXT CHAPTER</span>
+      </div>
+    </section>
+
+    <section class="search-panel" aria-label="Find a vehicle">
+      <div class="search-heading"><div><p class="eyebrow">VEHICLE FINDER</p><h2>What are you looking for?</h2></div><button class="text-button" id="clearFilters">Clear filters ↗</button></div>
+      <form id="searchForm" class="search-grid">
+        <label>Keyword<input id="keyword" type="search" placeholder="e.g. Toyota, Forester"></label>
+        <label>Make<select id="make"><option value="">All makes</option></select></label>
+        <label>Vehicle type<select id="type"><option value="">All types</option><option>SUV</option><option>Saloon</option><option>Hatchback</option><option>Pickup</option><option>Van</option></select></label>
+        <label>Location<select id="location"><option value="">All locations</option><option>Nairobi</option><option>Kiambu</option><option>Mombasa</option><option>Nakuru</option><option>Nyeri</option></select></label>
+        <label>Min. price (KSh)<input id="minPrice" type="number" min="0" placeholder="0"></label>
+        <label>Max. price (KSh)<input id="maxPrice" type="number" min="0" placeholder="Any"></label>
+        <label>Year from<select id="year"><option value="">Any year</option></select></label>
+        <label>Transmission<select id="transmission"><option value="">Any</option><option>Automatic</option><option>Manual</option></select></label>
+        <button class="btn btn-primary search-submit" type="submit">Search vehicles <span>→</span></button>
+      </form>
+    </section>
+
+    <section class="section categories-section">
+      <div class="section-title"><div><p class="eyebrow">START WITH A CATEGORY</p><h2>Browse vehicle types</h2></div><p class="muted">Choose a category to narrow your search.</p></div>
+      <div class="category-grid">
+        <button class="category-card" data-category="SUV"><span>🚙</span><b>SUVs</b><small>Space & versatility</small></button>
+        <button class="category-card" data-category="Saloon"><span>🚘</span><b>Saloons</b><small>Everyday comfort</small></button>
+        <button class="category-card" data-category="Hatchback"><span>🚗</span><b>Hatchbacks</b><small>Compact & practical</small></button>
+        <button class="category-card" data-category="Pickup"><span>🛻</span><b>Pickups</b><small>Work & adventure</small></button>
+        <button class="category-card" data-category="Van"><span>🚐</span><b>Vans</b><small>Room for more</small></button>
+      </div>
+    </section>
+
+    <section class="section inventory-section" id="inventory">
+      <div class="section-title inventory-heading"><div><p class="eyebrow">THE SAMPLE MARKETPLACE</p><h2>Explore available vehicles</h2><p class="muted" id="resultCount">Showing sample vehicles</p></div>
+        <label class="sort-label">Sort by <select id="sort"><option value="newest">Recently added</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="year">Newest model year</option></select></label>
+      </div>
+      <div id="vehicleGrid" class="vehicle-grid"></div>
+      <div id="emptyState" class="empty-state hidden"><div>⌕</div><h3>No matching vehicles</h3><p>Try changing your filters or clearing your search.</p><button class="btn btn-outline" id="emptyClear">Clear search</button></div>
+    </section>
+
+    <section class="trust-band">
+      <div><p class="eyebrow">BUY WITH YOUR EYES OPEN</p><h2>Good decisions start<br>with clear information.</h2><p>Review the details provided, ask questions and arrange an independent inspection before making a purchase.</p></div>
+      <div class="trust-items"><article><span>01</span><b>Review the details</b><p>Check the specifications, photos and seller-provided information.</p></article><article><span>02</span><b>Ask the seller</b><p>Confirm mileage, ownership documents and vehicle history.</p></article><article><span>03</span><b>Inspect independently</b><p>Arrange a trusted mechanic or inspection service before paying.</p></article></div>
+    </section>
+    <section class="seller-cta"><div><p class="eyebrow">FOR DEALERS & PRIVATE SELLERS</p><h2>Put your vehicle in the spotlight.</h2><p>Preview a simpler way to manage listings and track buyer interest.</p></div><a class="btn btn-light" href="dashboard.html">Explore seller dashboard →</a></section>
+  </main>
+  <footer><a class="brand footer-brand" href="index.html"><span class="brand-mark">✓</span><span>Cheki<span class="brand-sub">MOTORS</span></span></a><p>Independent concept prototype · Fictional sample inventory · No live marketplace transactions.</p><div><a href="README.md">Project notes</a><a href="proposal.html">Proposal</a></div></footer>
+  <script src="app.js"></script>
+</body></html>
