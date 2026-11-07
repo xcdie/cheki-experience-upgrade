@@ -70,6 +70,37 @@ This is a static frontend, so the owner can launch it with a very small setup:
 
 If they do not want to use Node, they can also open `index.html` directly in a browser, but using the local server is the most reliable option for local static hosting.
 
+## Deploy online
+
+This project is ready to host as a static website.
+
+### Netlify
+
+1. Push the project to GitHub.
+2. Log in to Netlify.
+3. Click “Add new site” → “Import from Git”.
+4. Select the repo and keep the default deployment settings.
+5. Deploy.
+
+The project does not need a build step because it is plain HTML, CSS and JavaScript.
+
+### GitHub Pages
+
+1. Push to a GitHub repository.
+2. Open the repository settings.
+3. Go to Pages.
+4. Set the source to the main branch and root folder.
+5. Save.
+
+The site will be published at:
+- `https://<username>.github.io/<repo-name>/`
+
+### Vercel
+
+1. Push the repo to GitHub.
+2. Import it into Vercel.
+3. Deploy with default settings.
+
 ## Contact proposal
 
 See `proposal.html` for a concise proposal outline and a draft outreach email.
