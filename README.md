@@ -58,6 +58,18 @@ Observed in the supplied screenshots:
 4. Conduct accessibility, mobile, performance and security reviews within an agreed scope.
 5. Agree on integration requirements, privacy handling and ownership before production development.
 
+## Run locally on another machine
+
+This is a static frontend, so the owner can launch it with a very small setup:
+
+1. Open a terminal in the project folder.
+2. Run:
+   - `npm start`
+3. Open the browser at:
+   - `http://localhost:3000`
+
+If they do not want to use Node, they can also open `index.html` directly in a browser, but using the local server is the most reliable option for local static hosting.
+
 ## Contact proposal
 
 See `proposal.html` for a concise proposal outline and a draft outreach email.

@@ -12,6 +12,6 @@
     "styles.css",
     "vehicle.html"
   ],
-  "run": "Open index.html or run python3 -m http.server 8000",
+  "run": "npm start",
   "backend": false
 }
