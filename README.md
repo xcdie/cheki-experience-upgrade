@@ -4,13 +4,6 @@
 **Technology:** HTML, CSS and vanilla JavaScript  
 **Affiliation:** This project is not affiliated with, endorsed by, or connected to Cheki Motors.
 
-## Run locally
-
-1. Extract the ZIP.
-2. Open `index.html` in a modern browser.
-3. For a local web server, run `python3 -m http.server 8000` from this folder and visit `http://localhost:8000`.
-
-No build step, package installation, account or backend is required.
 
 ## Pages
 
