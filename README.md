@@ -68,7 +68,6 @@ This is a static frontend, so the owner can launch it with a very small setup:
 3. Open the browser at:
    - `http://localhost:3000`
 
-
 ## Contact proposal
 
 See `proposal.html` for a concise proposal outline and a draft outreach email.
