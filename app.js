@@ -12,7 +12,7 @@ const sampleCars = [
 
  {id:"hilux-2018",name:"Toyota Hilux",make:"Toyota",type:"Pickup",price:3850000,year:2018,location:"Nakuru",condition:"Used",transmission:"Manual",fuel:"Diesel",mileage:"110,000 km",engine:"2,400 cc",seller:"Atlas Motor Gallery",image:"TOYOTA%20HILUX.jpg",images:["TOYOTA%20HILUX.jpg"],description:"Sample pickup listing for demonstrating filters and details."},
  
- {id:"demio-2018",name:"Mazda Demio",make:"Mazda",type:"Hatchback",price:1150000,year:2018,location:"Nyeri",condition:"Used",transmission:"Automatic",fuel:"Petrol",mileage:"68,000 km",engine:"1,300 cc",seller:"Ridgeway Auto Hub",image:"MAZDA%20CX%205.jpg",images:["MAZDA%20CX%205.jpg"],description:"Compact city-car concept listing. All details are fictional."}
+ {id:"demio-2018",name:"Mazda Demio",make:"Mazda",type:"Hatchback",price:1150000,year:2018,location:"Nyeri",condition:"Used",transmission:"Automatic",fuel:"Petrol",mileage:"68,000 km",engine:"1,300 cc",seller:"Ridgeway Auto Hub",image:"MAZDA%20DEMIO.jpg",images:["MAZDA%20DEMIO.jpg"],description:"Compact city-car concept listing. All details are fictional."}
 ];
 const money=n=>"KSh "+Number(n).toLocaleString("en-KE");
 const getCustom=()=>JSON.parse(localStorage.getItem("chekiDemoCustomCars")||"[]");
