@@ -6,7 +6,7 @@ const sampleCars = [
 
  {id:"cx5-2016",name:"Mazda CX-5",make:"Mazda",type:"SUV",price:2500000,year:2016,location:"Nairobi",condition:"Used",transmission:"Automatic",fuel:"Petrol",mileage:"72,000 km",engine:"2,000 cc",seller:"Ridgeway Auto Hub",image:"MAZDA%20CX%205.jpg",images:["MAZDA%20CX%205.jpg","MAZDA%20CX%205.jpg"],description:"Sample SUV listing with illustrative specifications. Actual condition and mileage are not represented."},
 
- {id:"harrier-2020",name:"Toyota Harrier",make:"Toyota",type:"SUV",price:4799999,year:2020,location:"Nairobi",condition:"Fresh Import",transmission:"Automatic",fuel:"Petrol",mileage:"Not supplied",engine:"2,000 cc",seller:"Ridgeway Auto Hub",image:"TOYOTA%20HILUX.jpg",images:["TOYOTA%20HILUX.jpg"],description:"Premium crossover concept listing. Contact a seller in a real marketplace to confirm specifications and import documentation."},
+ {id:"harrier-2020",name:"Toyota Harrier",make:"Toyota",type:"SUV",price:4799999,year:2020,location:"Nairobi",condition:"Fresh Import",transmission:"Automatic",fuel:"Petrol",mileage:"Not supplied",engine:"2,000 cc",seller:"Ridgeway Auto Hub",image:"toyota%20harrier.jpg",images:["toyota%20harrier.jpg"],description:"Premium crossover concept listing. Contact a seller in a real marketplace to confirm specifications and import documentation."},
 
  {id:"xtrail-2017",name:"Nissan X-Trail",make:"Nissan",type:"SUV",price:2100000,year:2017,location:"Mombasa",condition:"Used",transmission:"Automatic",fuel:"Petrol",mileage:"91,000 km",engine:"2,000 cc",seller:"Coastline Cars",image:"Nissan%20x%20TRAIL.jpg",images:["Nissan%20x%20TRAIL.jpg"],description:"Sample family SUV listing. Details are illustrative and should not be used as a representation of a real vehicle."},
 
